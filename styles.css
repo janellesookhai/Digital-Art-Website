@@ -1,0 +1,290 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+#jane h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.5em;
+}
+
+header {
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px 0 10px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#nav a {
+    padding-bottom: 20px;
+}   
+
+#nav a:hover {
+    border-bottom: 1px solid #3b3b3b;
+}
+
+#slides {
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+}
+
+#slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+
+#janephoto {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#janephoto img {
+    height: 350px;
+    width:230px;
+    float: left;
+}
+
+#img-container {
+    display: block;
+    width: 205px;
+    float: left;
+}
+
+#about-text p {
+    float: right;
+}
+
+#about-text {
+    display: block;
+    width: 495px;
+    float: right;
+}
+
+#contact-text {
+    display: block;
+    height: 50px;
+    width: 200px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#contact-text p {
+    text-align: left;
+}
+
+#contact-text a {
+    color: teal;
+}
+
+#gallery-container {
+    display: block;
+    width: 880px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#paintings-container {
+    display: block;
+    width: 200px;
+    height: 500px;
+    background: black;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+#paintings-container img {
+    opacity: 0.3;
+    display: block;
+        -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+#paintings-container img:hover {
+    opacity: 0.7;
+}
+
+#digital-container {
+    display: block;
+    width: 200px;
+    height: 500px;
+    background: black;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+#digital-container img {
+    opacity: 0.3;
+    display: block;
+        -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+#digital-container img:hover {
+    opacity: 0.7;
+}
+
+#drawings-container {
+    display: block;
+    width: 200px;
+    height: 500px;
+    background: black;
+    float: left;
+    margin: 0 5px 0 5px;
+
+}
+
+#drawings-container img {
+    opacity: 0.3;
+    display: block;
+        -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+#drawings-container img:hover {
+    opacity: 0.7;
+}
+
+#work-container {
+    display: block;
+    width: 200px;
+    height: 500px;
+    background: black;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+#work-container img {
+    opacity: 0.3;
+    display: block;
+        -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+#work-container img:hover {
+    opacity: 0.7;
+}
+
+#paintings-small-dave {
+    display: block;
+    width: 350px;
+    height: 60px;
+    background-color: #3b3b3b;
+    margin: 35px auto;
+}
+
+.paintings-big-dave {
+    display: block;
+    width: 1000px;
+    height: 400px;
+    margin: 30px auto;
+    font-size: 14px;
+}
+
+.painting {
+    display: block;
+    width: 650px;
+    height: 400px;
+    float: left;
+}
+
+.paintings-info {
+    display: block;
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+}

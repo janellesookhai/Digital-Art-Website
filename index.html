@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Janelle Sookhai</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+      <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+    
+      <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 600,
+        height: 400,
+          navigation: false,
+             play: {
+                auto: true
+             }
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+<div id="jane">
+    <h1>Janelle Sookhai</h1>
+</div>
+    
+    <header>
+        <ul id = "nav">
+            <a href="index.html"><li>Home</li></a>
+            <a href="gallery.html"><li>Gallery</li></a>
+            <a href="about.html"><li>About</li></a>
+        </ul>
+    </header>
+    
+  <div id="slides">
+    <img src="IndexPhotos/EmilyInkSlider.png">
+    <img src="IndexPhotos/JanelleFeltSlider.png">
+    <img src="IndexPhotos/LinoPrintSlider.png">
+    <img src="IndexPhotos/MiriamInkSlider.png">
+    <img src="IndexPhotos/PinholeCameraSlider.png">
+            <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+  </div>
+    
+</body>
+    
+</html>
